@@ -1,0 +1,64 @@
+.SignUp{
+  background-color: #abb8c3;
+}
+
+#signup__content {
+  background-color: #abb8c3;
+	display: block;
+  padding-bottom: 15%;
+  overflow: auto;
+}
+
+.signup__center {
+  width: 500px;
+  min-height: 100px;
+  padding: 20px 25px;
+  margin-left: auto;
+  margin-right: auto;
+  float: top;
+}
+
+.signup__paper {
+  padding: 20px 0;
+}
+
+.signup__centerItem {
+  margin: 15px 0 15px 0; 
+  text-align: center;
+}
+
+.signup__title {
+  color: steelblue;
+  font-size: 45px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.signup__form {
+  text-align: center;
+}
+
+.signup__box {
+  margin: 45px 0 45px 0;  
+  text-align: center;
+}
+
+.signup {
+  width: 350px;
+  height: 50px;
+}
+
+.signup__return {
+  margin: 60px 75px;  
+  display: flex;
+}
+
+.signup__submit {
+  flex: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  float: bottom;
+}
+
+.icon {
+  color: steelblue;
+}

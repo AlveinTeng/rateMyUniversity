@@ -1,0 +1,63 @@
+.FavoriteUniversityCard {
+    width: 740px;
+    height: 130px;
+}
+
+.favoriteUniversityCard__content {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.schoolName {
+    float: left;
+    width: 390px;
+    margin-top: 32px;
+    padding-left: 10px;
+}
+
+.schoolName__text{
+    display: block;
+    width: 390px;
+    font-size: 27px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.generalRating {
+    float: right;
+    width: 130px;
+}
+
+.stopFollowing {
+    float: right;
+    width: 130px;
+    margin-top: 36px;
+    margin-left: 11px;
+    font-size: 13px;
+}
+
+.vertical{
+    float: right;
+    background-color: #808080;
+    width:1px;
+    height:100px;
+    margin: 5px; 
+}
+
+
+.title{
+    text-align: center;
+    font-size: 17px;
+    display: block;
+    margin-top: 3px;
+}
+
+.ratingScore{
+    color: rgb(216, 172, 61);
+    margin-top: 6px;
+    margin-left: 24px;
+    font-size: 40px;
+    display: block;
+}

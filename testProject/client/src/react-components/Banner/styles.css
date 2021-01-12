@@ -1,0 +1,23 @@
+.Banner {
+  width: 100%;
+  height: 20px;
+  padding: 20px 10px;
+  margin-left: 10px;
+  display: block;
+  background-color: alpha;
+}
+
+.banner__rank {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 5px;
+  color: #d9e3f0;
+}
+
+.banner_icon {
+  color: #d9e3f0;
+}
+
+.underline {
+  text-decoration: underline;
+}

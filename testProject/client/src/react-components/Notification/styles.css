@@ -1,0 +1,85 @@
+.Notification{
+  background-color: #abb8c3;
+}
+
+#noti__content {
+  margin-top: 60px;
+  background-color: #abb8c3;
+	display: block;
+  padding-bottom: 15%;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.noti__centerBox {
+  flex: 1px;
+  width: 1000px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.noti__navigation {
+  z-index: 5;
+  padding: 0 10px;
+  margin: 0 15px;
+  /* float: left; */
+  height: 1000px;
+  width: 124px;
+  position: fixed;
+  /* position: absolute; */
+}
+
+
+.noti__titleBox {
+  margin: 15px 0 10px 0;
+}
+
+.noti__divider {
+  width: 100%;
+  height: 1px;
+  border-top: 2px solid #2d6a86;
+}
+
+.noti__title {
+  color: #2d6a86;
+  font-size: 24px;
+  /* margin-top: 10px; */
+}
+
+.noti_contentTitle {
+  margin-top: 8px;
+  margin-left: 187px;
+  min-width: 800px;
+  min-height: 50px;
+  position: fixed;
+  z-index: 6;
+  /* float: top; */
+}
+
+.noti_messageGroupPaper {
+  /* flex: 1px; */
+  /* padding: 60px 0; */
+  margin-top: 6px;
+  margin-left: 174px;
+  min-width: 700px;
+  min-height: 700px;
+  /* height: 100%; */
+  /* float: top; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.noti_messageGroup {
+  /* margin-top: 60px; */
+  min-height: 700px;
+  padding: 40px 0;
+  background-color: #b3c8d3;
+  border-radius: 3px;
+}
+
+.MessageCard {
+  margin: 30px 40px;
+}

@@ -1,0 +1,61 @@
+.RatingUniversityCard {
+    width: 740px;
+    height: 130px;
+}
+
+.ratingUniversityCard__content {
+    padding: 10px 10px;
+}
+
+.schoolName {
+    float: left;
+    width: 390px;
+    margin-top: 32px;
+    padding-left: 10px;
+    color: steelblue;
+}
+
+.schoolName__text{
+    display: block;
+    width: 390px;
+    font-size: 27px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.generalRating {
+    float: right;
+    width: 130px;
+    color: #0d7e0f;
+}
+
+.yourRating {
+    float: right;
+    width: 130px;
+    font-size: 18px;
+    color: #441598;
+}
+
+.vertical{
+    float: right;
+    background-color: #808080;
+    width:1px;
+    height:100px;
+    margin: 5px; 
+}
+
+.title{
+    text-align: center;
+    font-size: 17px;
+    display: block;
+    margin-top: 3px;
+}
+
+.ratingScore{
+    color: rgb(216, 172, 61);
+    margin-top: 6px;
+    margin-left: 24px;
+    font-size: 40px;
+    display: block;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ratemyuni",
+  "version": "1.0.0",
+  "description": "this is team 36 project: rate my university",
+  "main": "server.js",
+  "dependencies": {
+    "anymatch": "^3.1.1",
+    "bcryptjs": "^2.4.3",
+    "clone-response": "^1.0.2",
+    "decompress-response": "^3.3.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "make-dir": "^3.1.0",
+    "minimist": "^1.2.5",
+    "mimic-response": "^1.0.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.4",
+    "nopt": "^1.0.10",
+    "normalize-path": "^3.0.0",
+    "normalize-url": "^4.5.0",
+    "p-cancelable": "^1.1.0",
+    "picomatch": "^2.2.2",
+    "prepend-http": "^2.0.0",
+    "pupa": "^2.1.1",
+    "readdirp": "^3.5.0",
+    "responselike": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "setup": "npm install && cd client && npm install @material-ui/core && npm install @material-ui/icons && npm install @material-ui/lab && npm install react-router-dom && npm install && cd ..",
+    "build-run": "cd client && npm run build && cd .. && node server.js",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install @material-ui/core && npm install @material-ui/icons && npm install @material-ui/lab && npm install react-router-dom && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "author": "jiakaishi, mingxuanteng, meilinyang, jiayizeng",
+  "license": "ISC"
+}

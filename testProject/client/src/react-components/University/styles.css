@@ -1,0 +1,153 @@
+#university__content {
+  /* background-color: #abb8c3; */
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 15%;
+  /* overflow: auto; */
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.switch__button {
+  display: inline-block;
+}
+
+.university__description {
+  float: top;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  height: 600px;
+  /* background-color: skyblue; */
+  background-color: #9467c2;
+  display: block;
+}
+
+.university__descriptionPaper {
+  height: 600px;
+}
+
+.university__leftItem {
+  float: left;
+  margin-top: 30px;
+  margin-left: 25px;
+  /* margin: 30px 25px; */
+}
+
+.university__title {
+  float: top;
+  width: 500px;
+}
+
+.university__paper {
+  padding: 15px 20px;
+}
+
+.university__middleItem {
+  float: left;
+  margin-top: 65px;
+  /* margin-left: 15px; */
+  width: 130px;
+  border-radius: 3px;
+  background-color: white;
+  overflow: visible;
+}
+
+.mheight {
+  height: 65px;
+}
+
+.university__rankLink {
+  display: block;
+  width: 130px;
+}
+
+.university__onhot {
+  margin-top: 16px;
+  margin-left: 10px;
+  float: left;
+}
+
+.university__test {
+  margin-top: 12px;
+  margin-left: 6px;
+  font-size: 28px;
+  font-family: cursive;
+  float: left;
+}
+
+.university__rightItem {
+  float: right;
+  margin-top: 35px;
+  margin-right: 60px;
+  /* margin: 35px 60px; */
+}
+
+.university__descrip {
+  float: top;
+  margin-top: 50px;
+  width: 550px;
+  overflow-wrap: break-word;
+}
+
+.dheight {
+  height: 150px;
+}
+
+.university__buttonGroup {
+  float: top;
+  display: block;
+  margin-top: 80px;
+}
+
+.university__buttonGroupItem {
+  float: left;
+  margin-left: 25px;
+}
+
+.university__follow {
+  height: 50px;
+  padding: 0 1px;
+  display: block;
+}
+
+.university__followTextIcon {
+  display: block;
+}
+
+.university__followIcon {
+  margin-top: 10px;
+  float: left;
+}
+
+.university__followText {
+  margin-left: 5px;
+  margin-top: 8px;
+  float: left;
+  font-size: 21px;
+  font-family: cursive;
+}
+
+.university__submit {
+  float: left;
+  margin-left: 30px;
+}
+
+.university__rate {
+  height: 42px;
+  width: 250px;
+  padding-top: 8px;
+  font-size: 21px;
+  font-family: cursive;
+}
+
+.university__comment {
+  float: top;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.alpha__color {
+  color: alpha;
+}

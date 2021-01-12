@@ -1,0 +1,16 @@
+.Guide {
+  width: 350px;
+  margin: 2px;
+  border-radius: 2%;
+  /*border: 2px solid steelblue;*/
+}
+
+.card__title {
+  color: steelblue;
+}
+
+.description {
+  text-align: justify;
+  color: grey;
+  margin-bottom: 10px;
+}

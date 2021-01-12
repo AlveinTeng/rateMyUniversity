@@ -1,0 +1,63 @@
+.Rank {
+  background-color: #abb8c3;
+}
+
+#rank__content {
+    background-color: #abb8c3;
+    display: block;
+    padding-bottom: 30%;
+    overflow: auto;
+}
+
+.rank__paper {
+  margin: 0 100px;
+}
+
+.rank_centerbox {
+  border-radius: 10px;
+  padding: 10px 0;
+  background-color: whitesmoke;
+}
+
+.rankTitle{
+    display: block;
+    padding-top: 3%;
+    text-align: center;
+    color: steelblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.RankCard{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.rankBody{
+    padding-top: 5%;
+    margin: 0 auto;
+    width: 85%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 3%;
+}
+
+.rankBody::-webkit-scrollbar
+{
+    width: 16px;
+    height: 8px;
+    background-color: #F5F5F5;
+}
+
+.rankBody::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.rankBody::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #96bed8;
+}

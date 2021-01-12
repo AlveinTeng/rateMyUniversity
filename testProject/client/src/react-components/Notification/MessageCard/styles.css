@@ -1,0 +1,170 @@
+.MessageCard {
+  /* min-width: 500px;
+  min-height: 150px; */
+  width: 740px;
+  /* margin: 50px; */
+  /* background-color: gray;
+  border-color: #579dff; */
+}
+
+.messageCard__paper {
+  padding: 10px 20px;
+  width: 700px;
+  /* height: 170px; */
+  
+}
+
+.shortHeight{
+  height: 120px;
+}
+
+.longHeight{
+  height: 220px;
+}
+
+.messageCard__content {
+  width: 700px;
+  height: 120px;
+  display: block;
+}
+
+.user__link {
+  float: left;
+  margin-top: 5px;
+}
+
+.messageCard__leftItem {
+  float: left;
+}
+
+.userImage {
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 5px;
+  width: 50px;
+	height: 50px;
+}
+
+.user__description {
+  float: top;
+  padding-left: 10px;
+  display: grid;
+}
+
+.user__nameTime {
+  display: inline-block;
+}
+
+.user__username {
+  /* float: left; */
+  font-size: larger;
+  /* font: bold; */
+  color: #86622d;
+}
+
+.button__group {
+  height: 40px;
+}
+
+.user__time {
+  float: left;
+  /* border: 1px solid red; */
+  color: gray;
+  margin-top: 5px;
+  /* margin-left: 3px; */
+  font-size: smaller;
+}
+
+.user__comment {
+  font-size: 12px;
+  margin-left: 1px;
+}
+
+.user__commentItem {
+  width: 500px;
+  height: 50px;
+  /* word-wrap: break-word; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user__iconButton {
+  /* margin: 3px 50px; */
+  width: 30px;
+  height: 30px;
+}
+
+.user__icon {
+  /* margin: 0 10px; */
+  margin-left: 10px;
+  float: left;
+}
+
+.messageCard__divider {
+  border-right: 1px solid #808080;
+  /* fill: black; */
+  height: 100px;
+  width: 1px;
+  float: left;
+  margin: 5px; 
+}
+
+.messageCard__RightItem {
+  float: right;
+  height: 100px;
+  width: 100px;
+  margin: 5px 0;
+  font-size: 14px;
+  color: #9c9c9c;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.initial__color {
+  color: gray;
+}
+
+.red__color {
+  color: #fc5858;
+}
+
+.blue__color {
+  color: #579dff;
+}
+
+.newUser {
+  float: left;
+  margin-top: 10px;
+  width: 700px;
+  height: 80px;
+  display: inline;
+}
+
+.newUser__link {
+  float: left;
+  margin: 8px 0 8px 8px;
+}
+
+.newUser__comment {
+  margin: 8px 0 3px 10px;
+  width: 480px;
+  height: 60px;
+  overflow: auto;
+  resize: none;
+  float: left;
+}
+
+.newUser__button {
+  /* margin: 8px 0 3px 10px; */
+  width: 100px;
+  height: 60px;
+  /* float: left; */
+  /* background-color: gray; */
+}
+
+.newUser__buttonPos {
+  margin: 10px 15px 3px 15px;
+  width: 100px;
+  height: 60px;
+  float: right;
+}

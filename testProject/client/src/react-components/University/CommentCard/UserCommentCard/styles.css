@@ -1,0 +1,79 @@
+.UserCommentCard {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  min-height: 100px;
+  display: block;
+}
+
+.usercommentcard__link {
+  float: left;
+  margin: 8px 30px 8px 8px;
+}
+
+.usercommentcard__commentItem{
+  margin-top: 5px;
+  width: 650px;
+  text-align: start;
+  word-wrap: break-word;
+}
+
+.usercommentcard__leftItem {
+  float: left;
+  width: 660px;
+}
+
+.usercommentcard__description {
+  float: top;
+  margin-left: 10px;
+  display: grid;
+}
+
+.usercommentcard__nameTime {
+  display: inline-block;
+}
+
+.usercommentcard__name {
+  float: left;
+  margin-top: 3px;
+}
+
+.usercommentcard__rate {
+  float: left;
+  margin-left: 5px;
+  /* height: 10px;
+  width: 10px; */
+}
+
+.like__num {
+  margin-top: 7px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 5px;
+  color: gray;
+  float: left;
+}
+
+.usercommentcard__comment {
+  margin: 8px 0 3px 10px;
+  width: 400px;
+  height: 60px;
+  overflow: auto;
+  resize: none;
+  float: left;
+}
+
+.shrinkNewUser {
+  float: left;
+  margin-top: 10px;
+  width: 650px;
+  height: 80px;
+  display: inline;
+}
+
+.usercommentcard__divider {
+  float: top;
+  /* padding-left: 50px; */
+}
+
+.delete__comment {
+  float: top;
+  /* margin-left: 10px; */
+}

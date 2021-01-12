@@ -1,0 +1,47 @@
+.Category{
+  min-width: 100%;
+  min-height: 50px;
+  display: flex;
+  padding: 20px 0 0 0;
+  color: #006064;
+}
+
+.category__title {
+  width: 200px
+}
+
+.category__rating {
+  width: 170px;
+}
+
+.category__rate {
+  width: 50px;
+  text-align: center;
+}
+
+.category__name{
+  margin: 12px 150px 17px 5px;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  float: left;
+}
+
+.left {
+  float: left;
+}
+
+.rate_low {
+  margin: 18px 0 16px 0px;
+  float: left;
+  color: #3f51b5;
+}
+.rate_high {
+  margin: 18px 0 16px 0px;
+  float: left;
+  color: #ff9800;
+}
+
+.rating {
+  margin: 18px 20px;
+  float: left;
+}

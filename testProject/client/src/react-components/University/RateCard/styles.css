@@ -1,0 +1,82 @@
+.rateCrad {
+  /* max-width: 320px;
+  min-height: 380px;
+  max-height: 380px; */
+  /* margin: 50px; */
+  /* width: 380px; */
+  height: 420px;
+  /* padding: 10px 15px; */
+}
+
+.regular__width {
+  width: 380px;
+}
+
+.short__width {
+  width: 305px;
+}
+
+.ratecard__content {
+  display: block;
+  
+  height: 400px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  /* border: 3px; */
+  background-color: whitesmoke;
+}
+
+.content__regularWidth {
+  width: 350px;
+}
+
+.content__shortWidth {
+  width: 275px;
+}
+
+.ratecard__overall {
+  /* border: 1px solid red; */
+  height: 60px;
+  /* padding: 50px 0; */
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+}
+
+.ratecard__allratingtext {
+  font-size: 23px;
+  /* flex: 30px; */
+  margin-top: 11px;
+  flex: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  font-family: cursive;
+}
+
+.ratecard__allbuttonspace{
+  /* flex: 1px; */
+  /* margin-left: 15px; */
+  margin-top: auto;
+  margin-bottom: auto;
+  float: right;
+}
+
+.ratecard__allbutton {
+  
+  width: 94px;
+  height: 44px;
+  
+}
+
+.ratecard__space {
+  font-size: 28px;
+  margin: 3px 5px 7px 5px;
+  font-family: cursive;
+}
+
+.ratecard__group {
+  /* border: 1px solid red; */
+  height: 310px;
+  width: 100%;
+}

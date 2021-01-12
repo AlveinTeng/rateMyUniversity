@@ -1,0 +1,19 @@
+.face__veryHappy {
+  color: #3deb34;
+}
+
+.face__happy {
+  color: #9ceb34;
+}
+
+.face__normal {
+  color: #ebeb34;
+}
+
+.face__sad {
+  color: #eb8634;
+}
+
+.face__verySad {
+  color: #eb3a34;
+}

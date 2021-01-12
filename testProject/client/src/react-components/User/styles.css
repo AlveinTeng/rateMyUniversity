@@ -1,0 +1,150 @@
+.User{
+  /* background-color: #abb8c3; */
+  background-size: 1080px 1080px;
+}
+
+.SignUp{
+  background-color: #abb8c3;
+}
+
+#signup__content {
+  background-color: #abb8c3;
+	display: block;
+  padding-bottom: 15%;
+  overflow: auto;
+}
+
+.NavigationBar{
+  border-bottom: 1px solid rgb(194, 195, 199);
+  margin: 0px 50px;
+  padding-bottom: 3px;
+}
+
+.user__center{
+  height: 500px;
+}
+
+.blocked__massage{
+  display: block;
+  font-size: large;
+  font-weight: bold;
+  margin: auto;
+  padding: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.delete__user__button{
+  display: flex;
+  width: 100%;
+  margin: 5px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup__center {
+  width: 500px;
+  min-height: 100px;
+  padding: 20px 25px;
+  margin-left: auto;
+  margin-right: auto;
+  float: top;
+}
+
+.user__paper {
+  padding: 20px 0;
+}
+
+.user__centerItem {
+  margin: 15px 0 15px 0; 
+  text-align: center;
+}
+.user__image{
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 5px;
+  width: 100px;
+	height: 100px;
+}
+
+.user__title {
+  color: #311b92;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.user__form {
+  text-align: center;
+}
+
+.input__box {
+  margin: 0px 0 45px 0;  
+  text-align: center;
+}
+
+/* .User {
+  width: 1000px;
+  height: 100px;
+  margin-left: 100px;
+} */
+
+.user__return {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;  
+  display: flex;
+}
+
+.user__submit {
+  flex: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  float: bottom;
+}
+
+.icon {
+  color: steelblue;
+}
+.ActionBoxIcon{
+  font-size: 50px;
+}
+
+.user__modifyImage {
+  border-color: black;
+  background-color:#abb8c3;
+  margin-top: 10px;
+  width: 350px;
+  height: 350px;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  border-radius: 5px;
+  z-index: 5;
+}
+
+.user__images{
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: white;
+  padding: 2px;
+  margin: 10px;
+  width: 60px;
+	height: 60px;
+}
+
+.user__changeImageText{
+  font-weight: bold;
+}
+
+.newUser{
+  display: block;
+  margin: auto;
+  top: 400px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
