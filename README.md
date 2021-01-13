@@ -1,4 +1,4 @@
-# team36
+# Rate my university
 
 ## Overview
 This is a project of CSC309 at University of Toronto made by JiaKai Shi, Minxuan Teng, Meilin Yang and Jiayi Zeng. There's a deployed website https://afternoon-cove-20429.herokuapp.com/ on herokuapp.com which serves only for academic purposes. 
